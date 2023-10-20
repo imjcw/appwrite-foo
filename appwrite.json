@@ -1,0 +1,42 @@
+{
+    "projectId": "65320632cc593d3d84a2",
+    "projectName": "掘金签到",
+    "functions": [
+        {
+            "$id": "653210881e25d38ba479",
+            "name": "sign",
+            "runtime": "node-16.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/sign"
+        },
+        {
+            "$id": "653211a0bcf2df38e365",
+            "name": "random",
+            "runtime": "node-16.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/random"
+        }
+    ]
+}
